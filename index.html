@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>بن عشماوي </title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" /> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 1 — NAVBAR + HERO
+  ═══════════════════════════════════════════ -->
+  <section class="hero">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="nav-logo"><img src="media/photo_2026-06-02_14-35-39.jpg" alt=""></div>
+      <ul class="nav-links">
+        <li><a href="#">الرئيسية</a></li>
+        <li><a href="#خدماتنا">خدماتنا</a></li>
+        <!-- <li><a href="#">Origins</a></li>
+        <li><a href="#">Merch</a></li> -->
+      </ul>
+      <div class="nav-icons">
+        <!-- Search -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <!-- Account -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+        </svg>
+        <!-- Cart -->
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/>
+        </svg>
+      </div>
+    </nav>
+
+    <!-- Hero Image -->
+    <div class="hero-image-wrapper">
+      <img
+        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1600&q=80"
+        alt="Coffee lifestyle"
+        class="hero-img"
+      />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <!-- Hero Text -->
+    <div class="hero-text-left">
+      <p class="hero-eyebrow"><em>خَمْرُ الصَّالِحِينَ</em></p>
+      <h1 class="hero-heading">بَعْضُ الرِّفْقَةِ أَشْخَاصٌ<br/>وَبَعْضُهَا فِنْجَانُ قَهْوَةٍ</h1>
+    </div>
+    <p class="hero-text-right">
+      خلّي لفنجان القهوة طقسه الخاص. لما تعمله على مزاجك، الصبح مايبقاش روتين وخلاص، ويبقى بداية يومك بالطريقة اللي بتحبها
+    </p>
+
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 2 — SPLIT BANNER  "Make Your Morning Yours"
+  ═══════════════════════════════════════════ -->
+  <section class="split-section">
+
+    <h2 class="split-heading">اصنع صباحا نشيطا</h2>
+
+    <div class="split-panels">
+
+      <!-- Left panel — large photo -->
+      <div class="split-panel split-panel--left">
+       <video autoplay muted loop playsinline>
+         <source src="media/video_2026-06-02_15-02-37.mp4" type="video/mp4" >
+       </video>
+      </div>
+
+      <!-- Right panel — smaller photo + copy -->
+      <div class="split-panel split-panel--right">
+        <img
+          src="https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=900&q=80"
+          alt="Coffee beans and equipment"
+        />
+        <div class="split-copy">
+          <h3 class="split-copy-title">أساسيات الصباح</h3>
+          <p class="split-copy-body">
+            قهوتي سادة.. عشان الحياة محلية بما فيه الكفاية
+            
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 3 — SHOP BY COLLECTION
+  ═══════════════════════════════════════════ -->
+<section class="collection-section" id="menu">
+  <h2 class="collection-heading">تذوق خمر الصَّالِحِينَ</h2>
+
+  <div class="slider-wrapper" id="خدماتنا">
+
+    <!-- Left Arrow -->
+    <button class="slider-arrow slider-arrow--left" id="arrowLeft">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2">
+        <polyline points="15 18 9 12 15 6"/>
+      </svg>
+    </button>
+
+    <!-- Cards Track -->
+    <div class="slider-track" id="sliderTrack">
+
+      <!-- Coffee -->
+      <div class="slider-card" data-category="coffee">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?w=800&q=80" alt="Coffee" />
+         
+        </div>
+        <span class="collection-label">مشروبات القهوة</span>
+      </div>
+       <!-- Coffee-packets -->
+      <div class="slider-card" data-category="coffeepackets">
+        <div class="card-img-wrap">
+          <img src="media/coffee-packets.jpeg" alt="coffeepackets" />
+         
+        </div>
+        <span class="collection-label">باكيت قهوة</span>
+      </div>
+      <!-- Tea -->
+      <div class="slider-card" data-category="tea">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?w=800&q=80" alt="Tea" />
+        </div>
+        <span class="collection-label">مشروبات الشاي</span>
+      </div>
+
+      <!-- Espresso -->
+      <div class="slider-card" data-category="espresso">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=800&q=80" alt="Espresso" />
+        </div>
+        <span class="collection-label">اسبريسو</span>
+      </div>
+
+      <!-- Fresh Drinks -->
+      <div class="slider-card" data-category="fresh-drinks">
+        <div class="card-img-wrap">
+          <img src="https://images.unsplash.com/photo-1600093463592-8e36ae95ef56?w=800&q=80" alt="Fresh Drinks" />
+        </div>
+        <span class="collection-label">مشروبات فريش</span>
+      </div>
+       
+    </div>
+    <!-- Right Arrow -->
+    <button class="slider-arrow slider-arrow--right" id="arrowRight">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+        stroke="currentColor" stroke-width="2">
+        <polyline points="9 18 15 12 9 6"/>
+      </svg>
+    </button>
+
+  </div>
+
+  <!-- Dots -->
+  <div class="slider-dots" id="sliderDots"></div>
+
+</section>
+
+
+  <!-- ═══════════════════════════════════════════
+       SECTION 4 — NEWSLETTER + FOOTER
+  ═══════════════════════════════════════════ -->
+  <section class="newsletter-section">
+
+    <!-- Left lifestyle image -->
+    <div class="newsletter-img-wrap">
+      <img
+        src="https://images.unsplash.com/photo-1453614512568-c4024d13c247?w=900&q=80"
+        alt="Coffee tray lifestyle"
+      />
+    </div>
+
+    <!-- Right signup -->
+    <div class="newsletter-copy">
+      <h2 class="newsletter-heading">انضم الي متجرنا&nbsp;— واحصل علي افضل العروض والخصومات</h2>
+      <form class="newsletter-form" onsubmit="handleNewsletter(event)">
+        <input type="email" placeholder="البريد الألكتروني" class="newsletter-input" required />
+        <button type="submit" class="newsletter-btn" aria-label="Subscribe">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/>
+          </svg>
+        </button>
+      </form>
+      <p class="newsletter-success" id="newsletterSuccess">شكرا- لانضمامك لعائلتنا ☕</p>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="footer-col">
+      <h4>المتجر</h4>
+      <ul>
+        <li><a href="#">البحث</a></li>
+        <li><a href="#">الاكثر مبيعا</a></li>
+        <li><a href="#">المشروبات</a></li>
+        <li><a href="#">منتجات</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>مساعدة</h4>
+      <ul>
+        <!-- <li><a href="#">الخصوصية </a></li> -->
+        <li><a href="#">سياسة الخصوصية</a></li>
+        <li><a href="#">01032804313 اتصل بنا عبر</a></li>
+        <li><a href="">العنوان-بجوار سوق السمك وفرع الاتصالات</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>من نحن</h4>
+      <ul>
+        <li><a href="#">صفحتنا</a></li>
+        <li><a href="#">النشأة</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>تواصل معنا</h4>
+      <div class="footer-social">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/share/1HED9C9WmB/" target="_blank" aria-label="Facebook">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+          </svg>
+        </a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/bon_alashmawi/?__pwa=1/" target="_blank" aria-label="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+          </svg>
+        </a>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@bon_alashmawy?_r=1&_t=ZS-93vXPmdZB7S" target="_blank" aria-label="TikTok">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-2.88 2.5 2.89 2.89 0 0 1-2.89-2.89 2.89 2.89 0 0 1 2.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 0 0-.79-.05 6.34 6.34 0 0 0-6.34 6.34 6.34 6.34 0 0 0 6.34 6.34 6.34 6.34 0 0 0 6.33-6.34V8.69a8.18 8.18 0 0 0 4.78 1.52V6.75a4.85 4.85 0 0 1-1.01-.06z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026  - بن عشماوي   <br>   تم التصميم والتطوير -  بواسطة - عبدالله حسام & محمد عامر - 01012575937 - 01020916207</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+   <!-- ── MODAL ── -->
+        <div class="modal-overlay" id="modalOverlay">
+          <div class="modal-box">
+            <button class="modal-close" id="modalClose">&#x2715;</button>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <div class="modal-grid" id="modalGrid">
+              <!-- cards injected by JS -->
+            </div>
+          </div>
+        </div>
+</body>
+</html>
