@@ -106,36 +106,6 @@ function handleNewsletter(e) {
 const menuData = {
   coffee: [
     { 
-      name: 'امريكانو',        // product name
-      desc: 'بلاك & بولد',           // short description
-      price: '50 جنيه',              // price
-      img: 'media/coffee-americano.jpg'    // image file name from your folder
-    },
-    { 
-      name: 'كابتشينو',
-      desc: 'كريمي وغني',
-      price: '60 جنيه',
-      img: 'media/coffee-cappuccino.jpg'
-    },
-    { 
-      name: 'فلات وايت',
-      desc: 'ناعم ومخملي',
-      price: '50 جنيه',
-      img: 'media/coffee-flatwhite.jpg'
-    },
-    { 
-      name: 'لاتيه',
-      desc: 'حليب وإسبريسو',
-      price: '50 جنيه',
-      img: 'media/coffee-latte.jpg'
-    },
-    { 
-      name: 'اسبانيش لاتيه',
-      desc: 'حليب وإسبريسو',
-      price: '60 جنيه',
-      img: 'media/spanish-latte.jpg'
-    },
-    { 
       name: 'قهوة تركي',
       desc: 'قهوة تعدل',
       price: '20 جنيه',
@@ -159,12 +129,27 @@ const menuData = {
       price: '30 جنيه',
       img: 'media/bondoq-coffee.jpg'
     },
+    { 
+      name: 'قهوة موز',
+      desc: 'فهوة بالموز',
+      price: 'جنيه 25',
+      img: 'media/banana-coffee.jpg'
+    },
+    { 
+      name: 'قهوة توت',
+      desc: 'فهوة بالتوت',
+      price: 'جنيه 25',
+      img: 'media/coffee-berries.jpg'
+    },
+
+    { 
+      name: 'قهوة توباكو',
+      desc: 'فهوة توباكو',
+      price: 'جنيه 25',
+      img: 'media/tobacko-coffee.jpg'
+    },
   ],
    
- 
-    
-  
-  
 
   tea: [
     { 
@@ -185,6 +170,12 @@ const menuData = {
       price: '50 جنيه',
       img: 'media/tea-karak-milk.jpg'
     },
+    { 
+      name: 'زجاجة مياه',
+      desc: 'مياه باردة',
+      price: '10 جنيه',
+      img: 'media/water-bottele.jpg'
+    },
   ],
 
   espresso: [
@@ -197,7 +188,7 @@ const menuData = {
     { 
       name: 'اسبريسو دبل',
       desc: 'شوت مزدوج',
-      price: '40 جنيه',
+      price: '50 جنيه',
       img: 'media/espresso-double.jpg'
     },
     { 
@@ -215,94 +206,128 @@ const menuData = {
     { 
       name: 'كورتادو',
       desc: 'قهوة ايطاليا',
-      price: '40 جنيه',
+      price: '50 جنيه',
       img: 'media/cortado-coffee.jpg'
     },
+    { 
+      name: 'امريكانو',        // product name
+      desc: 'بلاك & بولد',           // short description
+      price: '60 جنيه',              // price
+      img: 'media/coffee-americano.jpg'    // image file name from your folder
+    },
+
+    { 
+      name: 'امريكانو تونك',
+      desc: 'اسبريسو',
+      price: '70 جنيه',
+      img: 'media/amrecano-tonk.jpg'
+    },
+  
+    { 
+      name: 'كابتشينو',
+      desc: 'كريمي وغني',
+      price: '70 جنيه',
+      img: 'media/coffee-cappuccino.jpg'
+    },
+    { 
+      name: 'فلات وايت',
+      desc: 'ناعم ومخملي',
+      price: '65 جنيه',
+      img: 'media/coffee-flatwhite.jpg'
+    },
+    { 
+      name: 'لاتيه',
+      desc: 'حليب وإسبريسو',
+      price: '65 جنيه',
+      img: 'media/coffee-latte.jpg'
+    },
+
+    { 
+      name: 'ايس لاتيه',
+      desc: 'اسبريسو',
+      price: '75 جنيه',
+      img: 'media/ice-latte.jpg'
+    },
+
+    { 
+      name: 'اسبانيش لاتيه',
+      desc: 'حليب وإسبريسو',
+      price: '80 جنيه',
+      img: 'media/spanich-latte.jpg'
+    },
     
+    { 
+      name: 'ايس اسبانيش لاتيه',
+      desc: 'حليب وإسبريسو',
+      price: '85 جنيه',
+      img: 'media/ice-spanich-latte.jpg'
+    },
+   
+    { 
+      name: 'ايس موكا',
+      desc: 'اسبريسو',
+      price: '85 جنيه',
+      img: 'media/ice-moka.jpg'
+    },
+   { 
+      name: 'موكا',
+      desc: 'اسبريسو',
+      price: '80 جنيه',
+      img: 'media/moka-coffee.jpg'
+    },
   ],
 
-  'fresh-drinks': [
-    { 
-      name: 'ايطاليا صودا',
-      desc: 'حامض ومثلج',
-      price: '50 جنيه',
-      img: 'media/italic-soda.jpg'
-    },
-    { 
-      name: 'سموزي',
-      desc: 'خفيف ومنعش',
-      price: '50 جنيه',
-      img: 'media/smoth-beverage.jpg'
-    },
-    { 
-      name: 'فرابيه',
-      desc: 'باردو رغوي',
-      price: '70 جنيه',
-      img: 'media/farabieh-drink.jpg'
-    },
-    { 
-      name: 'فرابيتشينو',
-      desc: 'كريمي ولذيذ',
-      price: '85 جنيه',
-      img: 'media/frabbuccino-drink.jpg'
-    },
-    { 
-      name: 'زجاجة مياه',
-      desc: 'مياه باردة',
-      price: '10 جنيه',
-      img: 'media/water-bottele.jpg'
-    },
-  ],
+  
    coffeepackets:[
 
     {
       name: 'بن بندق',
-      desc: 'باكو قهوة',
+      desc: 'كيلو',
       price: '850 جنيه',
       img: 'media/bon-bondoq.jpg'
     },
      { 
       name: ' فواكه',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 750',
       img: 'media/bon-fruits.jpg'
     },
     { 
       name: 'بن اسبيشيال',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه750',
       img: 'media/bon-spicial.jpg'
     },
     { 
       name: 'اسبريسو 1',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 1600',
       img: 'media/espresso-one.jpg'
     },
 
     { 
       name: 'اسبريسو 2',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 1200',
       img: 'media/espresso-two.jpg'
     },
     { 
       name: 'اسبريسو 3',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 950',
       img: 'media/espresso-three.jpg'
     },
    
     { 
       name: 'بن سادة فاتح',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 800',
       img: 'media/bon-plain-fateh.jpg'
     },
 
      { 
       name: 'بن سادة وسط',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 800',
       img: 'media/bon-plain-wasat.jpg'
     },
@@ -310,37 +335,356 @@ const menuData = {
     
     { 
       name: 'بن سادة غامق',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 900',
       img: 'media/bon-plain-ghameq.jpg'
     },
     { 
       name: 'بن محوج وسط',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 860',
       img: 'media/m7wag-wasat.jpg'
     },
     { 
       name: 'بن محوج فاتح',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 860',
       img: 'media/m7wag-fateh.jpg'
     },
     { 
       name: 'بن محوج غامق',
-      desc: 'باكو قهوة',
+      desc: 'كيلو ',
       price: 'جنيه 960',
       img: 'media/m7wag-ghameq.jpg'
     },
    { 
-      name: 'توباكو او اي فواكه',
-      desc: 'باكو قهوة',
-      price: 'جنيه 25',
-      img: 'media/tobacko-fruits.jpg'
+      name: 'بن توباكو تفاح',
+      desc: 'كيلو ',
+      price: 'جنيه 750',
+      img: 'media/bon-tobacko-apple.jpg'
     },
 
+    { 
+      name: 'بن توت',
+      desc: 'كيلو ',
+      price: 'جنيه 750',
+      img: 'media/bon-berries.jpg'
+    },
 
-  ] 
+    { 
+      name: 'بن موز',
+      desc: 'كيلو ',
+      price: 'جنيه 750',
+      img: 'media/bon-banana.jpg'
+    },
+
+    { 
+      name: 'بن محوج فاتح سوبر',
+      desc: 'كيلو ',
+      price: 'جنيه 990',
+      img: 'media/m7wag-fateh-super.jpg'
+    },
+
+    { 
+      name: 'بن سادة فاتح سوبر',
+      desc: 'كيلو ',
+      price: 'جنيه 900',
+      img: 'media/bon-sada-fateh-super.jpg'
+    },
+
+     { 
+      name: 'بن محوج وسط سوبر',
+      desc: 'كيلو ',
+      price: 'جنيه 1050',
+      img: 'media/bon-m7wag-wasat-super.jpg'
+    },
+  
+    { 
+      name: 'بن سادة وسط سوبر',
+      desc: 'كيلو ',
+      price: 'جنيه 950',
+      img: 'media/bon-sada-wasat-super.jpg'
+    },
+    
+  ],
+
+  v60:[
+   { 
+      name: 'Ethiopian',
+      desc: 'قهوة اثيوبيا ',
+      price: '120',
+      img: 'media/v60-coffee.jpg'
+    },
+    { 
+      name: 'Colombian',
+      desc: 'قهوة كولمبي',
+      price: '100',
+      img: 'media/v60-coffee.jpg'
+    },
+    { 
+      name: 'Panamanian',
+      desc: 'قهوة بنما',
+      price: '190',
+      img: 'media/v60-coffee.jpg'
+    },
+    { 
+      name: 'Honduran',
+      desc: 'قهوة هندوراسي',
+      price: '170',
+      img: 'media/v60-coffee.jpg'
+    },
+
+    { 
+      name: 'Salvadoran',
+      desc: 'قهوة سلفادو',
+      price: '140',
+      img: 'media/v60-coffee.jpg'
+    },
+
+    { 
+      name: 'Chinese',
+      desc: 'قهوة صينيية',
+      price: '180',
+      img: 'media/v60-coffee.jpg'
+    },
+  ],
+  easy: [
+    {
+    name: 'ايزي توت',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/easy-berries.jpg'
+  },
+    
+  {
+    name: 'ايزي فراوله',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/easy-strawberry.jpg'
+  },
+
+   {
+    name: 'ايزي كيوي',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/easy-kiwi.jpg'
+  },
+   {
+    name: 'ايزي باشن فروت',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/easy-passion-fruit.jpg'
+  },
+ {
+    name: 'ايزي اناناس',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/easy-pinable.jpg'
+  },
+{
+    name: 'ايزي خوخ',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/easy-peach.jpg'
+  },
+
+  {
+    name: 'ايزي ميكس',
+    desc: 'مشروب منعش',
+    price: '70 جنيه',
+    img: 'media/easy-mix.jpg'
+  },
+  { 
+      name: 'ايطاليا صودا',
+      desc: 'حامض ومثلج',
+      price: '50 جنيه',
+      img: 'media/italic-soda.jpg'
+    },
+  
+  ],
+  
+  matcha: [
+    {
+    name: 'ماتشا عادي',
+    desc: 'مشروب منعش',
+    price: '70 جنيه',
+    img: 'media/match-cover.jpg'
+  },
+ {
+    name: 'ماتشا لاتيه',
+    desc: 'مشروب منعش',
+    price: '80 جنيه',
+    img: 'media/match-latte.jpg'
+  },
+  {
+    name: 'ماتشا اسبانيش لاتيه',
+    desc: 'مشروب منعش',
+    price: '90 جنيه',
+    img: 'media/match-spanich-latte.jpg'
+  },
+
+ {
+    name: 'ماتشا مانجو',
+    desc: 'مشروب منعش',
+    price: '90 جنيه',
+    img: 'media/match-mango.jpg'
+  },
+  {
+    name: 'ماتشا فراوله',
+    desc: 'مشروب منعش',
+    price: '90 جنيه',
+    img: 'media/match-strawberry.jpg'
+  },
+
+{
+    name: 'ماتشا باشن فروت',
+    desc: 'مشروب منعش',
+    price: '90 جنيه',
+    img: 'media/matcha-passion-fruit.jpg'
+  },
+  
+
+
+  ],
+  smothy:[
+    { 
+      name: 'سموزي',
+      desc: 'خفيف ومنعش',
+      price: '50 جنيه',
+      img: 'media/smoth-beverage.jpg'
+    },
+   {
+    name: 'سموزي توت',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/smothy-berries.jpg'
+  },
+
+{
+    name: 'سموزي فراوله',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/smothy-strawberry.jpg'
+  },
+{
+    name: 'سموزي مانجو',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/smothy-mango.jpg'
+  },
+
+  {
+    name: 'سموزي باشن فروت',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/smothy-passion-fruit.jpg'
+  },
+  
+
+  {
+    name: 'سموزي خوخ',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/smothy-peach.jpg'
+  },
+
+  {
+    name: 'سموزي كيوي',
+    desc: 'مشروب منعش',
+    price: '60 جنيه',
+    img: 'media/smothy-kiwi.jpg'
+  },
+{
+    name: 'سموزي لمون نعناع',
+    desc: 'مشروب منعش',
+    price: '50 جنيه',
+    img: 'media/smothy-lemon-ment.jpg'
+  },
+{
+    name: 'سموزي ميكس',
+    desc: 'مشروب منعش',
+    price: '70 جنيه',
+    img: 'media/smothy-mix.jpg'
+  },
+
+
+  ],
+
+milkshake:[
+  { 
+      name: 'فرابيتشينو',
+      desc: 'كريمي ولذيذ',
+      price: '85 جنيه',
+      img: 'media/frabbuccino-drink.jpg'
+    },
+  {
+    name: 'فرابيه',
+    desc: 'مشروب منعش',
+    price: '70 جنيه',
+    img: 'media/farabieh-drink.jpg'
+  },
+  {
+    name: 'ميلك تشيك فراوله',
+    desc: 'مشروب منعش',
+    price: '85 جنيه',
+    img: 'media/milk-shake-strawberry.jpg'
+  },
+
+{
+    name: 'ميلك تشيك توت',
+    desc: 'مشروب منعش',
+    price: '85 جنيه',
+    img: 'media/milk-shake-berries.jpg'
+  },
+
+  {
+    name: 'ميلك تشيك مانجو',
+    desc: 'مشروب منعش',
+    price: '85 جنيه',
+    img: 'media/milk-shake-mango.jpg'
+  },
+
+  {
+    name: 'ميلك تشيك كيوي',
+    desc: 'مشروب منعش',
+    price: '85 جنيه',
+    img: 'media/milk-shake-kiwi.jpg'
+  },
+  {
+    name: 'ميلك تشيك فانيليا',
+    desc: 'مشروب منعش',
+    price: '75 جنيه',
+    img: 'media/milk-shake-vanilia.jpg'
+  },
+
+  {
+    name: 'ميلك تشيك شوكلاته',
+    desc: 'مشروب منعش',
+    price: '75 جنيه',
+    img: 'media/milk-shake-choclate.jpg'
+  },
+  {
+    name: 'ميلك تشيك كراميل',
+    desc: 'مشروب منعش',
+    price: '85 جنيه',
+    img: 'media/milk-shake-carmel.jpg'
+  },
+  {
+    name: 'ميلك تشيك باشن فروت',
+    desc: 'مشروب منعش',
+    price: '85 جنيه',
+    img: 'media/milk-shake-passion-fruit.jpg'
+  },
+{
+    name: 'ميلك تشيك ميكس',
+    desc: 'مشروب منعش',
+    price: '95 جنيه',
+    img: 'media/milk-shake-mix.jpg'
+  },
+]
+
+
+
 };
 
 /* ── Slider Logic ── */
@@ -349,8 +693,7 @@ const menuData = {
   const arrowL    = document.getElementById('arrowLeft');
   const arrowR    = document.getElementById('arrowRight');
   const dotsWrap  = document.getElementById('sliderDots');
-  const cards     = document.querySelectorAll('.slider-card');
-
+ const cards = document.querySelectorAll('#sliderTrack .slider-card');
   if (!track || cards.length === 0) return;
 
   // How many cards visible at once
@@ -402,6 +745,81 @@ const menuData = {
   cards.forEach(card => {
     card.addEventListener('click', (e) => {
       // e.preventDefault();
+      const category = card.dataset.category;
+      const items    = menuData[category] || [];
+      const title    = card.querySelector('.collection-label').textContent.trim();
+
+      document.getElementById('modalTitle').textContent = title;
+
+      const grid = document.getElementById('modalGrid');
+      grid.innerHTML = items.map(item => `
+        <div class="product-card">
+          <img class="product-card-img" src="${item.img}" alt="${item.name}" />
+          <div class="product-card-body">
+            <p class="product-card-name">${item.name}</p>
+            <p class="product-card-desc">${item.desc}</p>
+            <p class="product-card-price">${item.price}</p>
+            <button class="product-card-btn">اطلب الان</button>
+          </div>
+        </div>
+      `).join('');
+
+      document.getElementById('modalOverlay').classList.add('open');
+    });
+  });
+})();
+/* ── Slider 2 Logic ── */
+(function initSlider2() {
+  const track    = document.getElementById('sliderTrack2');
+  const arrowL   = document.getElementById('arrowLeft2');
+  const arrowR   = document.getElementById('arrowRight2');
+  const dotsWrap = document.getElementById('sliderDots2');
+  const cards    = document.querySelectorAll('#sliderTrack2 .slider-card');
+
+  if (!track || cards.length === 0) return;
+
+  const visibleCount = () => window.innerWidth <= 640 ? 1 : 2;
+  let current = 0;
+
+  const totalSteps = () => cards.length - visibleCount() + 1;
+
+  function buildDots() {
+    dotsWrap.innerHTML = '';
+    for (let i = 0; i < totalSteps(); i++) {
+      const dot = document.createElement('button');
+      dot.className = 'slider-dot' + (i === current ? ' active' : '');
+      dot.addEventListener('click', () => goTo(i));
+      dotsWrap.appendChild(dot);
+    }
+  }
+
+  function updateDots() {
+    document.querySelectorAll('#sliderDots2 .slider-dot').forEach((d, i) => {
+      d.classList.toggle('active', i === current);
+    });
+  }
+
+  function goTo(index) {
+    const max = totalSteps() - 1;
+    current = Math.max(0, Math.min(index, max));
+    const cardWidth = cards[0].offsetWidth + 16;
+    track.scrollLeft = current * cardWidth;
+    arrowL.disabled = current === 0;
+    arrowR.disabled = current >= max;
+    updateDots();
+  }
+
+  arrowL.addEventListener('click', () => goTo(current - 1));
+  arrowR.addEventListener('click', () => goTo(current + 1));
+
+  buildDots();
+  goTo(0);
+
+  window.addEventListener('resize', () => { buildDots(); goTo(0); });
+
+  /* Open modal on card click */
+  cards.forEach(card => {
+    card.addEventListener('click', () => {
       const category = card.dataset.category;
       const items    = menuData[category] || [];
       const title    = card.querySelector('.collection-label').textContent.trim();

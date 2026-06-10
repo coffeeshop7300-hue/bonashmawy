@@ -272,6 +272,12 @@ ul { list-style: none; }
    SECTION 3 — SHOP BY COLLECTION
    ════════════════════════════════════════════════════ */
 /* ── Slider ── */
+.collection-heading2{
+  text-align: center;
+  padding-bottom: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
 .collection-heading{
 display: flex;
 flex-direction: column;
@@ -299,7 +305,7 @@ margin-bottom: 10px;
   gap: 16px;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 100px 20px;
+  padding: 50px 20px;
 }
 
 .slider-track {
@@ -345,7 +351,7 @@ margin-bottom: 10px;
   padding: 48px 20px 16px;
   background: linear-gradient(to top, rgba(20,12,5,0.65) 0%, transparent 100%);
   color: var(--white);
-  font-size: 0.88rem;
+  font-size: 0.99rem;
   letter-spacing: 0.04em;
   border-radius: 0 0 var(--radius) var(--radius);
   z-index: 2;
@@ -793,6 +799,9 @@ flex-direction: column;
 text-align: center;
 padding-top: 15px;
 padding-bottom: 0;
+}
+.collection-heading2 {
+ margin-top: -130px;
 }
 
 .modal-box {
