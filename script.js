@@ -413,39 +413,39 @@ const menuData = {
       name: 'Ethiopian',
       desc: 'قهوة اثيوبيا ',
       price: '120',
-      img: 'media/v60-coffee.jpg'
+      img: 'media/ethiopia-flag.jpg'
     },
     { 
       name: 'Colombian',
       desc: 'قهوة كولمبي',
       price: '100',
-      img: 'media/v60-coffee.jpg'
+      img: 'media/colombia-flag.jpg'
     },
     { 
       name: 'Panamanian',
       desc: 'قهوة بنما',
       price: '190',
-      img: 'media/v60-coffee.jpg'
+      img: 'media/panamp-flag.jpg'
     },
     { 
       name: 'Honduran',
       desc: 'قهوة هندوراسي',
       price: '170',
-      img: 'media/v60-coffee.jpg'
+      img: 'media/hundoras-flag.jpg'
     },
 
     { 
       name: 'Salvadoran',
       desc: 'قهوة سلفادو',
       price: '140',
-      img: 'media/v60-coffee.jpg'
+      img: 'media/slvador-flag.jpg'
     },
 
     { 
       name: 'Chinese',
       desc: 'قهوة صينيية',
       price: '180',
-      img: 'media/v60-coffee.jpg'
+      img: 'media/chiness-flag.jpg'
     },
   ],
   easy: [
